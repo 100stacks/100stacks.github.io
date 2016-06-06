@@ -6,4 +6,6 @@ sample apps and various posts in the pasts.  As my homepage, it will morph as I 
 to make it more useful, and as a place to gather thoughts that I hope would provide some usefulness
 to others.
 
+### Next Steps are to integrate a blog post linking to projects.
+
 :squirrel: :panda_face:
