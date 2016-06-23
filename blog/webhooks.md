@@ -2,6 +2,11 @@
 
 The article will discuss intergraton with GitHub API Events.
 
+## What are Webhooks?
+
+## Why use Webhooks?
+
 ## Steps to Building a Webhook
 
-TBD
+1. Step 1 ...
+2. Step 2 ...
