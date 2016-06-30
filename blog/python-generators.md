@@ -1,9 +1,8 @@
 # Python Generators
 ## How, Why, and Where to use them
 
-## Regular List
-```
 ## Simple List
+```
 def square_numbers(nums):
     result = []
     for i in nums:
