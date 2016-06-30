@@ -1,6 +1,7 @@
-# Python Generators - How, Why, and Where to use them
+# Python Generators
+## How, Why, and Where to use them
 
-# Regular List
+## Regular List
 ```
 ## Simple List
 def square_numbers(nums):
@@ -22,7 +23,7 @@ Outputs:
 25
 ```
 
-# Now with a Generator
+## Now with a Generator
 
 ```
 # Now using Generators
