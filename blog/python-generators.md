@@ -1,6 +1,26 @@
 # Python Generators - How, Why, and Where to use them
 
 # Regular List
+```
+## Simple List
+def square_numbers(nums):
+    result = []
+    for i in nums:
+        result.append(i*i)
+    return result
+
+sample = [1,2,3,4,5]
+
+print(square_numbers(sample)) # outputs [1, 4, 9, 16, 25]
+```
+Outputs:
+```
+1
+4
+9
+16
+25
+```
 
 # Now with a Generator
 
@@ -29,7 +49,7 @@ print(next(g))
 print("go: " next(g))
 print(next(g)) # Prints 25, for the LAST value in the LIST.
 ```
-Output:
+Outputs:
 ```
 <generator object square_generator at 0x7f1ab815c308>
 1
