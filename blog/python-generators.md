@@ -81,3 +81,9 @@ StopIterationTraceback (most recent call last)
 StopIteration: 
 
 ```
+
+## Rewrite the Generator as simple FOR loop
+```
+for num in g:
+    print(num)
+```
