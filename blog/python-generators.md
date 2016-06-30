@@ -63,14 +63,6 @@ Once the `list` of values is exhausted, we get a....
 ### `StopIteration` Stack Trace
 
 ```
-<generator object square_generator at 0x7f1ab815c308>
-1
-4
-9
-16
-25
-
-
 StopIterationTraceback (most recent call last)
 <ipython-input-20-93bdddec6e6f> in <module>()
      27 print(next(g))
