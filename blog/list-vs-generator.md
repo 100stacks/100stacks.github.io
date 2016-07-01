@@ -61,7 +61,7 @@ print('\nMemory (After) adding 1M list objects to a NEW Generator: {} bytes'.for
 print('Took {} seconds'.format(t6-t5))
 ```
 
-### Output
+## Output
 ```
 Memory (After) adding 1M list objects to an empty List: 8697464 bytes
 Took 2.540992000000003 seconds
