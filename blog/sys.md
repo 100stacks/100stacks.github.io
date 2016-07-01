@@ -55,6 +55,7 @@ Gets the size in `bytes` of the `object`.
 dsize = sys.getsizeof({}) # overhead of an empty dictionary
 lsize = sys.getsizeof([]) # number bytes of an empty list
 ssize = sys.getsizeof(set()) # num bytes of an empty set
+
 print("\n-empty dictionary {} bytes\n-empty list {} bytes\n-empty set {} bytes\n".format(dsize, lsize, ssize))
 ```
 Output:
