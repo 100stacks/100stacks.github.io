@@ -75,4 +75,4 @@ Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
 Took 6.600000000389628e-05 seconds = that's 0.04447 seconds!
 ```
 
-#### Notice the `generator` object took 0.04447 seconds vs 2.54 seconds for the `list` object.
+#### Notice the `generator` object took 0.04447 seconds vs 2.54 seconds for the `list` object!
