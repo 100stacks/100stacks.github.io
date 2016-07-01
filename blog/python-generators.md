@@ -112,3 +112,16 @@ print (list(sample3)) # notice the `list` keyword
 
 By doing the above :point_up_2:, you lose the performance tradeoff of a `generator` as a `list` pulls the
 entire list into memory.
+
+## List vs Generator Execution Times
+Using the example code at `list-vs-generator.py` we get the following results:
+```
+Memory (After) adding 1M list objects to an empty List: 8697464 bytes
+Took 2.540992000000003 seconds
+
+Memory (After) adding 1M list objects if we RETYPED the List object as Generator: 88 bytes
+Took 0.11375400000000013 seconds
+
+Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
+Took 6.600000000389628e-05 seconds = 0.04447 seconds!
+```
