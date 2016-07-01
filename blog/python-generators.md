@@ -103,3 +103,9 @@ print(sample3) # print the generator object
 for num in sample3:
     print(num)
 ```
+
+## Print Generator as a list...
+```
+sample3 = (x*x for x in [2,3,5,7,9])
+print (list(sample3)) # notice the `list` keyword
+```
