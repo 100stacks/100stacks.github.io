@@ -79,3 +79,27 @@ StopIteration:
 for num in g:
     print(num)
 ```
+
+## List Comprehension     
+```
+print("Using List Comprehension:")
+
+sample2 = [x*x for x in [2,3,5,7,9]]  
+print(sample2)
+```
+Outputs:
+```
+Using List Comprehension:
+[4, 9, 25, 49, 81]
+```
+
+## A Generator using shortcut annotation
+```
+print("Generator using shortcut annotation:")
+
+sample3 = (x*x for x in [2,3,5,7,9])
+print(sample3) # print the generator object
+
+for num in sample3:
+    print(num)
+```
