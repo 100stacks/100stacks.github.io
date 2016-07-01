@@ -84,7 +84,7 @@ for num in g:
 ```
 print("Using List Comprehension:")
 
-sample2 = [x*x for x in [2,3,5,7,9]]  
+sample2 = [x*x for x in [2,3,5,7,9]]  # notice we wrap in [] to indicate List Comprehension
 print(sample2)
 ```
 Outputs:
