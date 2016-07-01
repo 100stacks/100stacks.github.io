@@ -60,3 +60,17 @@ t6 = time.clock()
 print('\nMemory (After) adding 1M list objects to a NEW Generator: {} bytes'.format(sys.getsizeof(people1)))
 print('Took {} seconds'.format(t6-t5))
 ```
+
+### Output
+```
+Memory (After) adding 1M list objects to an empty List: 8697464 bytes
+Took 2.540992000000003 seconds
+
+Memory (After) adding 1M list objects to re-typed List object as Generator: 88 bytes
+Took 0.11375400000000013 seconds
+
+Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
+Took 6.600000000389628e-05 seconds = that's 0.04447 seconds!
+```
+
+**Notice the `generator` object took 0.04447 seconds vs 2.54 seconds for the `list` object.**
