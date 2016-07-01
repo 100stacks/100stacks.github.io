@@ -2,7 +2,7 @@
 ## How, Why, and Where to use them
 
 ## Simple List
-```
+```py
 def square_numbers(nums):
     result = []
     for i in nums:
@@ -24,7 +24,7 @@ Outputs:
 
 ## Now with a Generator
 
-```
+```py
 # Now using Generators
 def square_generator(nums):
     for i in nums:
@@ -42,7 +42,7 @@ Initially the generator object is returned:
 ```
 
 When we run the following commands, the LIST is iterated over using the YIELD statement:
-```
+```py
 print(next(g)) # Syntax for Python 3.x is different from Python 2.7.x
 print(next(g))
 print(next(g))
@@ -81,7 +81,7 @@ for num in g:
 ```
 
 ## List Comprehension     
-```
+```py
 print("Using List Comprehension:")
 
 sample2 = [x*x for x in [2,3,5,7,9]]  # notice we wrap in [] to indicate List Comprehension
@@ -94,7 +94,7 @@ Using List Comprehension:
 ```
 
 ## A Generator using shortcut annotation
-```
+```py
 print("Generator using shortcut annotation:")
 
 sample3 = (x*x for x in [2,3,5,7,9]) # notice we use () to indicate it's a Generator
@@ -105,23 +105,10 @@ for num in sample3:
 ```
 
 ## Print Generator as a list...
-```
+```py
 sample3 = (x*x for x in [2,3,5,7,9])
 print (list(sample3)) # notice the `list` keyword
 ```
 
 By doing the above :point_up_2:, you lose the performance tradeoff of a `generator` as a `list` pulls the
 entire list into memory.
-
-## List vs Generator Execution Times
-Using the example code at `list-vs-generator.py` we get the following results:
-```
-Memory (After) adding 1M list objects to an empty List: 8697464 bytes
-Took 2.540992000000003 seconds
-
-Memory (After) adding 1M list objects if we RETYPED the List object as a Generator: 88 bytes
-Took 0.11375400000000013 seconds
-
-Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
-Took 6.600000000389628e-05 seconds = 0.04447 seconds!
-```
