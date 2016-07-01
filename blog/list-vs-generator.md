@@ -1,8 +1,8 @@
 # List vs Generator
 
-* The article shows the difference between `list` and `generator` execution times.
+* This article shows the difference between `list` and `generator` execution times.
 * Of note, the entire `list` object is loaded into memory.
-* `generator` object is lazy (as used) loaded into memory.
+* The `generator` object is lazy (as used) loaded into memory.
 
 ## Code Snippet
 ```py
@@ -73,4 +73,4 @@ Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
 Took 6.600000000389628e-05 seconds = that's 0.04447 seconds!
 ```
 
-**Notice the `generator` object took 0.04447 seconds vs 2.54 seconds for the `list` object.**
+#### Notice the `generator` object took 0.04447 seconds vs 2.54 seconds for the `list` object.
