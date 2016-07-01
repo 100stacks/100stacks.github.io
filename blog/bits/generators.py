@@ -32,3 +32,24 @@ print(next(g)) # Since the LIST is exhausted, the generator throws a `StopIterat
 for num in g:
     print(num)
     
+
+## Another way to loop through Generator object
+print("Another way to loop through Generator object:")
+for num in g:
+    print(num)
+    
+## List Comprehension     
+print("Using List Comprehension:")
+
+sample2 = [x*x for x in [2,3,5,7,9]]  
+print(sample2)
+
+## A Generator using shortcut annotation
+print("Generator using shortcut annotation:")
+
+sample3 = (x*x for x in [2,3,5,7,9])
+print(sample3) # print the generator object
+
+for num in sample3:
+    print(num) # prints 4, 9, 25, 49, 81
+ 
