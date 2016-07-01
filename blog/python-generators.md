@@ -109,3 +109,6 @@ for num in sample3:
 sample3 = (x*x for x in [2,3,5,7,9])
 print (list(sample3)) # notice the `list` keyword
 ```
+
+By doing the above :point_up_2:, you lose the performance tradeoff of a `generator` as a `list` pulls the
+entire list into memory.
