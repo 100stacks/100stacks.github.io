@@ -97,7 +97,7 @@ Using List Comprehension:
 ```
 print("Generator using shortcut annotation:")
 
-sample3 = (x*x for x in [2,3,5,7,9])
+sample3 = (x*x for x in [2,3,5,7,9]) # notice we use () to indicate it's a Generator
 print(sample3) # print the generator object
 
 for num in sample3:
