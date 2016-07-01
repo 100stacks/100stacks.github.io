@@ -5,6 +5,8 @@
 * The `generator` object is lazy (as used) loaded into memory.
 
 ## Code Snippet
+This article uses `list-vs-generator.py` provided under the `bits` directory. 
+
 ```py
 import sys
 import random
