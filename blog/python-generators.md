@@ -119,7 +119,7 @@ Using the example code at `list-vs-generator.py` we get the following results:
 Memory (After) adding 1M list objects to an empty List: 8697464 bytes
 Took 2.540992000000003 seconds
 
-Memory (After) adding 1M list objects if we RETYPED the List object as Generator: 88 bytes
+Memory (After) adding 1M list objects if we RETYPED the List object as a Generator: 88 bytes
 Took 0.11375400000000013 seconds
 
 Memory (After) adding 1M list objects to a NEW Generator: 88 bytes
