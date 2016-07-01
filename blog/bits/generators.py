@@ -53,3 +53,7 @@ print(sample3) # print the generator object
 for num in sample3:
     print(num) # prints 4, 9, 25, 49, 81
  
+ ## To print Generator as List
+sample3 = (x*x for x in [2,3,5,7,9])
+print(sample3) # print the generator object
+print (list(sample3))
