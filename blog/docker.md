@@ -11,3 +11,8 @@
 ## Show me an example....
 
 ### Introducing Carina
+
+### Additional Resources
+
+* https://getcarina.com/blog/moving-chatops-into-carina/
+* https://getcarina.com/docs/tutorials/data-stores-redis/
