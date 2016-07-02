@@ -16,3 +16,4 @@
 
 * https://getcarina.com/blog/moving-chatops-into-carina/
 * https://getcarina.com/docs/tutorials/data-stores-redis/
+* https://getcarina.com/blog/learning-how-to-whale/
