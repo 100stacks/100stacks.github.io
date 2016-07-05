@@ -19,3 +19,7 @@ The article will discuss intergraton with GitHub API Events.
 
 https://developer.github.com/v3/
 https://developer.github.com/webhooks/
+
+## GitHub Dev Guides
+
+https://developer.github.com/guides/
