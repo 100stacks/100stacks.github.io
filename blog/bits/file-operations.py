@@ -18,6 +18,8 @@ saveFile.close()
 
 # Read from a file
 readFile = open('test.txt', 'r').read()
+print(readFile)
 
 # Read contents into a Python List
 readFile = open('text.txt', 'r').readlines()
+print(readFile)
