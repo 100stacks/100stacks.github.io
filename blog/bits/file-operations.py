@@ -15,3 +15,9 @@ saveFile = open('test.txt', 'a') # append
 
 saveFile.write(test)
 saveFile.close()
+
+# Read from a file
+readFile = open('test.txt', 'r').read()
+
+# Read contents into a Python List
+readFile = open('text.txt', 'r').readlines()
