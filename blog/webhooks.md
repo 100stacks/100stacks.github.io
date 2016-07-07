@@ -20,6 +20,9 @@ The article will discuss intergraton with GitHub API Events.
 10. Webhook server sends build status to our GitHub client
 11. GitHub client receives the build status
 12. GitHub client sends the build status to Hubot client
+13. Hubot posts the build status to the registered chat channel(s)
+14. All registered users see the build status from GitHub
+
 
 ## Interaction with GitHub API
 
