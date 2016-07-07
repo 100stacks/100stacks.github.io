@@ -15,6 +15,8 @@ The article will discuss intergraton with GitHub API Events.
 5. If so, GitHub sends the command to our webhook server
 6. Webhook server verifies via HMAC hash that it can receive commands from our GitHub client
 7. Webhook server sends the command via Maestro API to Jenkins
+8. Jenkins queues up container build
+9. Success/Failure is returned to Webhook server
 
 ## Interaction with GitHub API
 
