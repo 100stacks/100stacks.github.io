@@ -17,6 +17,9 @@ The article will discuss intergraton with GitHub API Events.
 7. Webhook server sends the command via Maestro API to Jenkins
 8. Jenkins queues up container build
 9. Success/Failure is returned to Webhook server
+10. Webhook server sends build status to our GitHub client
+11. GitHub client receives the build status
+12. GitHub client sends the build status to Hubot client
 
 ## Interaction with GitHub API
 
