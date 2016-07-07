@@ -10,3 +10,8 @@ saveFile.write(test)
 # MAKE SURE TO ALWAYS CLOSE THE FILE
 saveFile.close()
 
+# Append to a file
+saveFile = open('test.txt', 'a') # append
+
+saveFile.write(test)
+saveFile.close()
