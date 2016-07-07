@@ -13,6 +13,8 @@ The article will discuss intergraton with GitHub API Events.
 3. GitHub validates it can receive commands from our registered Hubot client
 4. GitHub determines if it has a registered webhook for the command sent from our Hubot client
 5. If so, GitHub sends the command to our webhook server
+6. Webhook server verifies via HMAC hash that it can receive commands from our GitHub client
+7. Webhook server sends the command via Maestro API to Jenkins
 
 ## Interaction with GitHub API
 
