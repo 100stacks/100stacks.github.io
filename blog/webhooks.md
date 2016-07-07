@@ -9,7 +9,8 @@ The article will discuss intergraton with GitHub API Events.
 ## Steps to Building a Webhook
 
 1. User queries Hubot with a command  
-2. Hubot send command to GitHub
+2. Hubot sends command to GitHub
+3. GitHub validates it can receive commands from our registered Hubot client
 
 ## Interaction with GitHub API
 
