@@ -13,6 +13,8 @@ The article will discuss intergraton with GitHub API Events.
 
 ## Interaction with GitHub API
 
+Expand on `GitHub` interaction with your servers.
+
 ## Interaction with Carina (Docker)
 
 ### Next steps...
