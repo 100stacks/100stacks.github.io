@@ -40,4 +40,19 @@ ValueError: list.remove(x): x not in list
 sample.remove(7)
 print("after remove:", sample)
 
-# after remove: [3, 8, 10, 99, 22, 1, 7, -4, 23]
+# More operations....
+print("what value is at index 5?", sample[5])
+print("where is 99?", sample.index(99))
+
+print("How many 7s are in the list after we removed one?", sample.count(7))
+print("How many 6s in the list?", sample.count(6))
+
+'''
+Output:
+after remove: [3, 8, 10, 99, 22, 1, 7, -4, 7, 23]
+what value is at index 5? 1
+where is 99? 3
+How many 7s are in the list after we removed one? 2
+How many 6s in the list? 0
+'''
+
