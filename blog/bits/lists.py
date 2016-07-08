@@ -56,3 +56,16 @@ How many 7s are in the list after we removed one? 2
 How many 6s in the list? 0
 '''
 
+# We can also sort and reverse sort the list
+sample.sort()
+print("sorted list:", sample)
+
+sample.reverse()
+print("reverse the sorted list:", sample)
+
+'''
+Output:
+sorted list: [-4, 1, 3, 7, 7, 8, 10, 22, 23, 99]
+reverse the sorted list: [99, 23, 22, 10, 8, 7, 7, 3, 1, -4]
+'''
+
