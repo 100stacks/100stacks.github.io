@@ -35,3 +35,9 @@ ValueErrorTraceback (most recent call last)
 ValueError: list.remove(x): x not in list
 
 '''
+
+# Now REMOVE an item
+sample.remove(7)
+print("after remove:", sample)
+
+# after remove: [3, 8, 10, 99, 22, 1, 7, -4, 23]
