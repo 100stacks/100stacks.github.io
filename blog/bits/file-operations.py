@@ -33,3 +33,16 @@ print(readFile)
 # Read contents into a Python List
 readFile = open('test.txt', 'r').readlines()
 print(readFile)
+
+'''
+Output:
+this is a string
+that is written to a file
+['this is a string\n', 'that is written to a file']
+this is a string
+that is written to a fileYet more content.
+Checking to see if we need an newline here.
+
+['this is a string\n', 'that is written to a fileYet more content.\n', 'Checking to see if we need an newline here.\n']
+
+'''
