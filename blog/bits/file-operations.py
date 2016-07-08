@@ -1,6 +1,6 @@
-# Simple example writing to a file
+# File Operations - showing simple file operations in Python
 
-test = 'this is a string\nthat is written to a file`
+test = 'this is a string\nthat is written to a file'
 
 saveFile = open('test.txt', 'w') # w - (over)write to file, r - read from file, a - append to file
 
@@ -10,16 +10,26 @@ saveFile.write(test)
 # MAKE SURE TO ALWAYS CLOSE THE FILE
 saveFile.close()
 
-# Append to a file
-saveFile = open('test.txt', 'a') # append
-
-saveFile.write(test)
-saveFile.close()
-
-# Read from a file
+# Let's see if we can read in what we just saved....
 readFile = open('test.txt', 'r').read()
 print(readFile)
 
 # Read contents into a Python List
-readFile = open('text.txt', 'r').readlines()
+readFile = open('test.txt', 'r').readlines()
+print(readFile)
+
+# Now let's APPEND to the file
+test2 = 'Yet more content.\nChecking to see if we need an newline here.\n'
+
+saveFile = open('test.txt', 'a') # append
+
+saveFile.write(test2)
+saveFile.close()
+
+# Let's see if we can read in what we just APPENDED....
+readFile = open('test.txt', 'r').read()
+print(readFile)
+
+# Read contents into a Python List
+readFile = open('test.txt', 'r').readlines()
 print(readFile)
