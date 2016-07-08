@@ -69,3 +69,16 @@ sorted list: [-4, 1, 3, 7, 7, 8, 10, 22, 23, 99]
 reverse the sorted list: [99, 23, 22, 10, 8, 7, 7, 3, 1, -4]
 '''
 
+# Multi-Dimensional Lists (a dictionary is normally a better option)
+sample2 = [[4,7], [8,1], [3,5], [6,0]]
+
+print("multi-dimensional list:", sample2)
+print("list @index 2:", sample2[2])
+print("list @index 2 first item:", sample2[2][0])
+
+'''
+Output:
+multi-dimensional list: [[4, 7], [8, 1], [3, 5], [6, 0]]
+list @index 2: [3, 5]
+list @index 2 first item: 3
+'''
