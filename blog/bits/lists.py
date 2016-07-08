@@ -19,3 +19,19 @@ after append: [3, 7, 8, 10, 22, 1, 7, -4, 23]
 after insert: [3, 7, 8, 10, 99, 22, 1, 7, -4, 23]
 
 '''
+
+# REMOVE the first occurrence from list, will throw an ERROR if not found
+sample.remove(6) # will generate an error
+
+'''
+Output:
+
+ValueErrorTraceback (most recent call last)
+<ipython-input-6-80a5dc861761> in <module>()
+     14 
+     15 # REMOVE the first occurrence from list, will throw an ERROR if not found
+---> 16 sample.remove(6)
+
+ValueError: list.remove(x): x not in list
+
+'''
