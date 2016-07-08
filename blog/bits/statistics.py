@@ -16,6 +16,15 @@ print('mean: ', q)
 r = statistics.median(sample)
 print('median:', r)
 
+s = statistics.mode(sample)
+print('mode:', s)
+
+t = statistics.stdev(sample)
+print('standard deviation:', t)
+
+u = statistics.variance(sample)
+print('variance:', u)
+
 '''
 Output:
 The following shows a some of the available methods of the
