@@ -4,6 +4,8 @@ The article will discuss intergraton with GitHub API Events.
 
 ## What are Webhooks?
 
+Webhooks are part of any modern Continuous Development/Continuous Integration build process.
+
 ## Why use Webhooks?
 
 ## Steps to Building a Webhook
@@ -26,7 +28,8 @@ The article will discuss intergraton with GitHub API Events.
 
 ## Interaction with GitHub API
 
-Expand on `GitHub` interaction with your servers.  `GitHub` does **not** interact directly with your servers, it acts a third-party client that sends and receives commands.
+Expand on `GitHub` interaction with your servers.  `GitHub` does **not** interact directly with your servers, it
+acts a third-party client that sends and receives commands.
 
 
 ## Interaction with Carina (Docker)
