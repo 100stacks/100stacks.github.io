@@ -8,6 +8,11 @@ Webhooks are part of any modern Continuous Development/Continuous Integration bu
 
 ## Why use Webhooks?
 
+Some benefits:
+* They are used to automate repetitious and/or tedious processes across distributed teams to reduce possible
+conflicts in the build process.
+* Launching DevOps microservices.
+
 ## Steps to Building a Webhook
 
 1. User queries Hubot with a command  
