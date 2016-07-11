@@ -18,3 +18,7 @@ with open(sample.csv) as csvfile:
   
   try:
     checkStat = input('What stat are you checking?')
+  except Exception as e:
+      print(e)
+  
+  
