@@ -3,7 +3,7 @@
 import csv
 
 with open(sample.csv) as csvfile:
-  readCSV = csv.reader(csvfile, delimiter=','
+  readCSV = csv.reader(csvfile, delimiter=',')
   dates = []
   colors = []
   for row in readCSV
