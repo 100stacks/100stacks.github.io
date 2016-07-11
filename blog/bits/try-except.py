@@ -16,3 +16,5 @@ with open(sample.csv) as csvfile:
   print(dates)
   print(stats)
   
+  try:
+    checkStat = input('What stat are you checking?')
