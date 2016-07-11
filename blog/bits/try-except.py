@@ -5,14 +5,14 @@ import csv
 with open(sample.csv) as csvfile:
   readCSV = csv.reader(csvfile, delimiter=',')
   dates = []
-  colors = []
+  stats = []
   for row in readCSV
-    color = row[3]
+    stat = row[3]
     date = row[0]
     
     dates.append(date)
-    colors.append(color)
+    stats.append(stat)
     
   print(dates)
-  print(colors)
+  print(stats)
   
