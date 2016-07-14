@@ -14,7 +14,9 @@ print("num cpu's:", cpu_count())
 print("worker count:", worker_count)
 ```
 
-### Output
+This shows how Python can access system level information, such as, `cpu_count`.
+
+### Output:
 ```
 num cpu's: 4
 worker count: 9
