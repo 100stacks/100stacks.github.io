@@ -6,7 +6,11 @@ The article will discuss intergraton with GitHub API Events.
 
 Webhooks are part of any modern Continuous Development/Continuous Integration build process.
 
+Webhooks have grown in popularity as a lightweight real-time API for interacting with mircoservices.  We can also refer to them as a HTTP Push API or web callback.
+
 ## Why use Webhooks?
+
+What's so great about webhooks?  It borrows the functional `callback`, or event-loop pattern from JavaScript.  It provides a way to configure APIs asynchronously. 
 
 Some benefits:
 * They are used to automate repetitious and/or tedious processes across distributed teams to reduce possible

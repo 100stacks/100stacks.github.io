@@ -4,6 +4,8 @@
 
 ## Virtual Machines
 
+Vitrual Machines (VMs) are full images of operating systems that are monitored and controlled by a hypervisor.
+
 ## What is Docker?
 
 ## Why use Docker?
