@@ -4,6 +4,8 @@ The article will discuss intergraton with GitHub API Events.
 
 ## What are Webhooks?
 
+Webhooks have grown in popularity as a lightweight realtime API for interacting with mircoservices.  
+
 ## Why use Webhooks?
 
 ## Steps to Building a Webhook
