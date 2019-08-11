@@ -9,12 +9,9 @@ addons:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-script:
-- echo "Starting the build!"
-- echo "bundle exec jekyll build ...from jobs"
-- echo "Finished build!"
+
 before_install:
-- chmod +x script/build
+- chmod +x script # verify TravisCI has permission to execute scripts
 jobs:
   include:
     - stage: build
