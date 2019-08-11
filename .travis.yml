@@ -16,4 +16,5 @@ script:
 jobs:
   include:
     - stage: build
+      install: chmod +x script/build
       script: script/build
