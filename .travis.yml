@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler # caching to speed up dependency installation
 rvm:
-- 2.4.1
+- 2.4.5 # TravisCI prebuilt version
 addons:
   apt:
     packages:
@@ -18,6 +18,3 @@ jobs:
     - stage: build
       name: "Running Jeykll build script..."
       script: script/build
-    - stage: tests
-      name: "Running build tests..."
-      script: script/tests
