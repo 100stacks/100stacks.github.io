@@ -10,7 +10,8 @@ env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up pkg installation
 script:
+- echo "Starting the build!"
 jobs:
   include:
-  - stage: build
-    script: script/build
+    - stage: build
+      script: script/build
