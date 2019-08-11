@@ -1,4 +1,4 @@
-![Build Status](https://secure.travis-ci.org/100stacks/100stacks.github.io.png?branch=master)
+[![Build Status](https://travis-ci.org/100stacks/site-demo.github.io.svg?branch=master)](https://travis-ci.org/100stacks/site-demo.github.io)
 
 # Welcome! 👋
 
