@@ -1,7 +1,7 @@
 language: ruby
 cache: bundler # caching to speed up dependency installation
 rvm:
-- 2.4.1
+- 2.4.5
 addons:
   apt:
     packages:
@@ -13,6 +13,4 @@ script:
 jobs:
   include:
   - stage: build
-    script: scripts/build
-  - stage: tests
-    script: scripts/tests
+    script: script/build
