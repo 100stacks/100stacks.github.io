@@ -1,1 +1,7 @@
 theme: jekyll-theme-hacker
+
+title: 100stacks Portfolio Page
+description: 100stacks portfolio page
+permalink: pretty
+search_enabled: false
+color_scheme: dark
