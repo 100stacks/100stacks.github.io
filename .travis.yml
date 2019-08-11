@@ -13,8 +13,9 @@ script:
 - echo "Starting the build!"
 - echo "bundle exec jekyll build ...from jobs"
 - echo "Finished build!"
+before_install:
+- chmod +x script/build
 jobs:
   include:
     - stage: build
-      install: chmod +x script/build
       script: script/build
