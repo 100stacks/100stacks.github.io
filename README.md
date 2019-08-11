@@ -2,13 +2,8 @@
 
 # Welcome! 👋
 
-## Hello,
+This site will morph as I try to find different ways to make it more useful, and as a place to gather thoughts that I hope will provide some usefulness to others.
 
-This page will change over time as I flush out the best use of this site.  I have published
-sample apps and various posts in the pasts.  As my homepage, it will morph as I try to find different ways
-to make it more useful, and as a place to gather thoughts that I hope would provide some usefulness
-to others.
+## TravisCI
 
-### Next Steps are to integrate a blog post linking to projects.
-
-:squirrel: :panda_face:
+Implemented TravisCI integration - https://travis-ci.org/100stacks/100stacks.github.io - with additional branch protections.
