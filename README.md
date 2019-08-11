@@ -1,3 +1,6 @@
+![Build Status](https://secure.travis-ci.org/100stacks/100stacks.github.io.png?branch=master)
+
+# Welcome! 👋
 
 ## Hello,
 
