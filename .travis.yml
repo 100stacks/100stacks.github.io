@@ -17,4 +17,5 @@ script:
 jobs:
   include:
     - stage: build
-      script: script/build
+      name: "Bundle and build jekyll"
+      script: ./script/build
