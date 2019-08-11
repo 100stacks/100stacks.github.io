@@ -2,6 +2,11 @@
 logs
 *.log
 
+# Jekyll Configs
+_site
+.sass-cache
+.jekyll-metadata
+
 # Runtime data
 pids
 *.pid
