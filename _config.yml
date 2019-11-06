@@ -1,9 +1,9 @@
-title: 100stacks Portfolio Page
-description: 100stacks portfolio page
-permalink: pretty
-search_enabled: false
-color_scheme: dark
+# title: 100stacks Portfolio Page
+# description: 100stacks portfolio page
+# permalink: pretty
+# search_enabled: false
+# color_scheme: dark
 
-remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-remote-theme
+# remote_theme: pmarsceill/just-the-docs
+# plugins:
+#   - jekyll-remote-theme
